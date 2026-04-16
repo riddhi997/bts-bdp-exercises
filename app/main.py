@@ -22,4 +22,4 @@ def health_check():
     }
 @app.get("/info")
 def info():
-    return {"session": "S9", "topic": "DevOps & CI/CD"}
+    return {"session": "S9", "topic": "DevOps & CI/CD"}# info endpoint added
